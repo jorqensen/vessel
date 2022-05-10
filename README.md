@@ -1,6 +1,4 @@
-# Vessel
-
-My own personal Scoop bucket.
+![banner](assets/banner.png)
 
 ## Usage
 
@@ -21,3 +19,7 @@ Now you can install manifests from this bucket using the Scoop CLI.
 ```ps1
 scoop install [manifest]
 ```
+
+## Scoop
+
+If you came across this repository and don't know what Scoop is, [check out the official website](https://scoop.sh/).
