@@ -4,6 +4,13 @@
     "homepage": "https://localazy.com/",
     "url": "https://dist.localazy.com/windows/windows-v1.6.0.zip",
     "hash": "e5e26cc4567333fc9fae38e9407d60194c7096b30fe457b289eadb347633c587",
+    "checkver": {
+        "url": "https://localazy.com/docs/cli/installation",
+        "regex": "windows-v([\\d.]+).zip"
+    },
+    "autoupdate": {
+        "url": "https://dist.localazy.com/windows/windows-v$version.zip"
+    },
     "license": "https://localazy.com/terms-and-conditions",
     "bin": "localazy.exe",
     "notes": "See available commands using 'localazy --help'"
