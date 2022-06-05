@@ -1,0 +1,21 @@
+{
+    "version": "2.11.0",
+    "description": "WinSW wraps and manages any application as a Windows service..",
+    "homepage": "https://github.com/winsw/winsw",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/winsw/winsw/releases/download/v2.11.0/WinSW-x64.exe",
+            "hash": "69833B8BD0B76CBF051A795AE89F9071B24863B7F141F87CCB675BDB08E8FB8B"
+        }
+    },
+    "bin": "winsw.exe",
+    "checkver": "github",
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/winsw/winsw/releases/download/v$version/WinSW-x64.exe"
+            }
+        }
+    }
+}
