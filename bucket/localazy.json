@@ -1,9 +1,9 @@
 {
-    "version": "1.6.5",
+    "version": "1.6.7",
     "description": "Localazy CLI is our command-line interface, and you can use it to upload files to the Localazy platform and download translations back to your app.",
     "homepage": "https://localazy.com/",
-    "url": "https://dist.localazy.com/windows/windows-v1.6.5.zip",
-    "hash": "27931ada26a7eb9cf20857056c1b1695ea91dadf3bac54b2566997daba238ea0",
+    "url": "https://dist.localazy.com/windows/windows-v1.6.7.zip",
+    "hash": "7e27c07dcdeffb5472c7b0ed79843862d0101a70bb823b828b2e44f9bc09467b",
     "checkver": {
         "url": "https://localazy.com/docs/cli/installation",
         "regex": "windows-v([\\d.]+).zip"
